@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--FICHIER XML : Il permettra de stocker les données des CD de notre site.
+NB : Un CD sous entend un album et non un single
+
+CD possède :
+-titre
+-genre
+-auteur(s)/groupe
+-pochette
+-prix
+-->
+<gestionCD>
+
+	<listeCD>
+
+		<CD id="1">
+			<titre>The Head on the Door</titre> 
+			<genre>new wave</genre>
+			<auteur>the Cure</auteur>
+			<prix> 12 </prix>
+			<pochette>https://t2.genius.com/unsafe/220x0/https%3A%2F%2Fimages.genius.com%2Fdcb534e9c14a0330aa672d1d854e34ed.988x1000x1.jpg 
+			</pochette>
+		</CD>
+
+		<CD id="2">
+			<titre>The end</titre>
+			<genre>hip hop</genre>
+			<auteur>the Black Eyed Peas</auteur>
+			<prix> 751 </prix>
+			<pochette>https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2Fafb63032a821126a337f142f7cf283e1.1000x1000x1.jpg
+			</pochette>
+		</CD>
+
+		<CD id="3">
+			<titre>L'an 1999</titre>
+			<genre>pop</genre>
+			<auteur>Fran&#xE7;ois Juno</auteur>
+			<prix> 750 </prix>
+			<pochette>https://images.genius.com/b2286f346b2020ab03ebf53ad87ef991.1000x1000x1.png</pochette>
+		</CD>
+
+	</listeCD>
+
+	<structCD>
+		<!--Exemple de base de la structure du CD.
+			NB : Utilisé pour l'ajout/suppression dans le back-office du site web-->
+		<CD id="">
+			<titre/>
+			<genre/>
+			<auteur/>
+			<prix/>
+			<pochette/>
+		</CD>
+
+	</structCD>
+
+</gestionCD>
